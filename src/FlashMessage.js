@@ -157,8 +157,14 @@ export const renderFlashMessageIcon = (icon = "success", style = {}, customProps
       return (
         <Image style={[styles.flashIcon, style]} source={require("./icons/fm_icon_danger.png")} {...customProps} />
       );
-    case "wifi":
-        <Image style={[styles.flashIcon, style]} source={require("./icons/fm_icon_danger.png")} {...customProps} />
+    case "wifi-on":
+      return (
+        <Image style={[styles.flashIcon, style]} source={require("./icons/qb_icon_wifi-on.png")} {...customProps} />
+      );
+    case "wifi-off":
+      return (
+        <Image style={[styles.flashIcon, style]} source={require("./icons/qb_icon_wifi-off.png")} {...customProps} />
+      );
     default:
       return null;
   }
