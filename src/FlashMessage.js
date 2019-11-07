@@ -662,12 +662,12 @@ const styles = StyleSheet.create({
   flashIcon: {
     tintColor: "#fff",
     marginTop: -1,
-    width: 21,
-    height: 21,
+    width: 16,
+    height: 16,
   },
   flashIconLeft: {
     marginLeft: -6,
-    marginRight: 9,
+    marginRight: 5,
   },
   flashIconRight: {
     marginRight: -6,
